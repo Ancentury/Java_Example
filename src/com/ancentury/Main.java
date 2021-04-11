@@ -14,6 +14,7 @@ public class Main {
 
         for (int i = 0; i < 10; i++) {
             xxx.add(new Invoice("First " + i, new Date(), 10.00 + i));
+            System.out.println(xxx.get(i));
         }
     }
 }
